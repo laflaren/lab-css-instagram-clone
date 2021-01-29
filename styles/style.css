@@ -8,3 +8,45 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+
+#outerSection {
+  background-color:rgb(65, 100, 136);
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  padding: 100px;
+}
+
+#whiteBox {
+  background-color: white;
+  flex-direction:column-reverse;
+  padding: 5%;
+}
+button{
+  background-color: rgb(65, 100, 136);
+}
+h1{
+  color: rgb(36, 54, 80);
+}
+h4{
+  color: grey;
+}
+
+#phones {
+  background-color: rgb(49, 206, 28);
+}
+#promo {
+  background-color: darkblue;
+}
+
+footer{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  color:rgb(36, 54, 80)
+}
+
+.greyCopyWrite{
+  color: grey;
+}
